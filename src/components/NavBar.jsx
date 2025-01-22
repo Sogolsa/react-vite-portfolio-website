@@ -12,7 +12,7 @@ import {
   ListItemText,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/sogol-saadat-logo2.png";
 
 const NavBar = () => {
@@ -30,8 +30,8 @@ const NavBar = () => {
   };
 
   const menuItems = [
-    { text: "Home", link: "/home" },
-    { text: "About", link: "/about" },
+    { text: "Home", link: "top" },
+    { text: "About", link: "about" },
     { text: "Work", link: "/work" },
     { text: "Contact", link: "/contact" },
   ];
@@ -70,7 +70,7 @@ const NavBar = () => {
           <Button color="inherit" href="#about">
             About
           </Button>
-          <Button color="inherit" href="#work">
+          <Button color="inherit" component={ScrollLink} to="/work">
             Work
           </Button>
           <Button color="inherit" href="#contact">
@@ -99,8 +99,20 @@ const NavBar = () => {
             <List>
               {menuItems.map((item) => (
                 <ListItem key={item.text} disablePadding>
-                  <ListItemButton component={Link} to={item.link}>
-                    <ListItemText primary={item.text} />
+                  <ListItemButton>
+                    <ScrollLink
+                      to={item.link}
+                      smooth={true}
+                      duration={500}
+                      onClick={() => setDrawerOpen(false)}
+                      style={{
+                        width: "100%",
+                        textDecoration: "none",
+                        color: "inherit",
+                      }}
+                    >
+                      <ListItemText primary={item.text} />
+                    </ScrollLink>
                   </ListItemButton>
                 </ListItem>
               ))}

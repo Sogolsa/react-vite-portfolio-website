@@ -41,8 +41,11 @@ const About = () => {
           </Typography>
           <Box
             sx={{
-              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              flexWrap: "wrap",
               marginTop: 4,
+              gap: 2,
             }}
           >
             {/* Web Development Projects Button */}
@@ -50,7 +53,11 @@ const About = () => {
               variant="contained"
               component={Link}
               to="/work"
-              sx={{ margin: 1, backgroundColor: "#2ca4ab" }}
+              sx={{
+                margin: 1,
+                backgroundColor: "#2ca4ab",
+                "&:hover": { backgroundColor: "#4E979B" },
+              }}
             >
               My Web Development Projects
             </Button>
@@ -60,7 +67,11 @@ const About = () => {
               variant="contained"
               href="https://sogolsa.github.io/Sogol.Portfolio.github.io/"
               target="_blank"
-              sx={{ margin: 1, backgroundColor: "#6fab2c" }}
+              sx={{
+                margin: 1,
+                backgroundColor: "#2ca4ab",
+                "&:hover": { backgroundColor: "#4E979B" },
+              }}
             >
               My Data Analysis Portfolio
             </Button>
@@ -69,7 +80,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1wsP1J_0mosQGI3-rJv82oqMOWTmKoFYU/view?usp=sharing"
               download="sogol-saadat-resume.pdf"
               target="_blank"
-              sx={{ margin: 1, backgroundColor: "#6fab2c" }}
+              sx={{ margin: 1, backgroundColor: "#ab2c6f" }}
             >
               Download Resume
             </Button>
