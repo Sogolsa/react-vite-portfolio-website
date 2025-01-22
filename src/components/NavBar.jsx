@@ -11,15 +11,19 @@ const NavBar = () => {
           display: "flex",
           justifyContent: "space-between",
           flexWrap: "wrap",
+          padding: { xs: "0px", sm: "6px" },
         }}
       >
-        <img
+        <Box
+          component="img"
           src={logo}
           alt="sogol-logo"
           sx={{
-            height: { xs: 40, sm: 50 },
+            height: { xs: "30px", sm: "40px", md: "50px" },
+            width: "auto",
           }}
         />
+
         <Box
           sx={{
             display: { xs: "none", sm: "block" },

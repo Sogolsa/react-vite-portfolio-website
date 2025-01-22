@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import heroImg from "../assets/hero-img.jpg";
+import heroImg from "../assets/hero-img2.jpg";
 
 const Hero = () => {
   return (
     <Box
       sx={{
-        height: { xs: "50vh", sm: "60vh", md: "70vh" },
+        height: { xs: "30vh", sm: "40vh", md: "50vh" },
         backgroundImage: `url(${heroImg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
