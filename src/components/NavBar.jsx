@@ -8,6 +8,7 @@ import {
   Drawer,
   List,
   ListItem,
+  ListItemButton,
   ListItemText,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -16,14 +17,16 @@ import logo from "../assets/sogol-saadat-logo2.png";
 
 const NavBar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const toggleDrawer = (open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-    setDrawerOpen(open);
+  const toggleDrawer = (open) => {
+    return (event) => {
+      if (
+        event.type === "keydown" &&
+        (event.key === "Tab" || event.key === "Shift")
+      ) {
+        return;
+      }
+      setDrawerOpen(open);
+    };
   };
 
   const menuItems = [
@@ -50,6 +53,7 @@ const NavBar = () => {
           sx={{
             height: { xs: "30px", sm: "40px", md: "50px" },
             width: "auto",
+            flexShrink: 0,
           }}
         />
 
@@ -82,10 +86,9 @@ const NavBar = () => {
         <Drawer anchor="top" open={drawerOpen} onClose={toggleDrawer(false)}>
           <Box
             sx={{
-              width: 250,
+              // height: "auto",
               display: "flex",
               flexDirection: "column",
-              padding: "16px",
             }}
             role="presentation"
             onClick={toggleDrawer(false)}
@@ -93,13 +96,10 @@ const NavBar = () => {
           >
             <List>
               {menuItems.map((item) => (
-                <ListItem
-                  button
-                  key={item.text}
-                  component={Link}
-                  to={item.link}
-                >
-                  <ListItemText primary={item.text} />
+                <ListItem key={item.text} disablePadding>
+                  <ListItemButton component={Link} to={item.link}>
+                    <ListItemText primary={item.text} />
+                  </ListItemButton>
                 </ListItem>
               ))}
             </List>
