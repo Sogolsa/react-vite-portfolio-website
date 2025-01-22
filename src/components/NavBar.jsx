@@ -58,20 +58,22 @@ const NavBar = () => {
         />
 
         <Box
+          component="div"
           sx={{
             display: { xs: "none", sm: "block" },
+            // flexGrow: 1,
           }}
         >
-          <Button color="inherit" component={Link} to="/home">
+          <Button color="inherit" href="#top">
             Home
           </Button>
-          <Button color="inherit" component={Link} to="/about">
+          <Button color="inherit" href="#about">
             About
           </Button>
-          <Button color="inherit" component={Link} to="/work">
+          <Button color="inherit" href="#work">
             Work
           </Button>
-          <Button color="inherit" component={Link} to="/contact">
+          <Button color="inherit" href="#contact">
             Contact
           </Button>
         </Box>
