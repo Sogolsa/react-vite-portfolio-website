@@ -2,6 +2,9 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import { Link } from "@mui/material";
 import heroImg from "../assets/hero-img2.jpg";
+import githubIcon from "../assets/github-square-icon.svg";
+import twitterIcon from "../assets/twitter-icon.svg";
+import linkedinIcon from "../assets/linkedin-logo.svg";
 
 const Hero = () => {
   return (
@@ -58,7 +61,7 @@ const Hero = () => {
             rel="noopener"
           >
             <img
-              src="/img/github-square-icon.svg"
+              src={githubIcon}
               alt="GitHub"
               style={{ width: 40, height: 40 }}
             />
@@ -70,7 +73,7 @@ const Hero = () => {
             rel="noopener"
           >
             <img
-              src="/img/twitter-icon.svg"
+              src={twitterIcon}
               alt="Twitter"
               style={{ width: 40, height: 40 }}
             />
@@ -82,7 +85,7 @@ const Hero = () => {
             rel="noopener"
           >
             <img
-              src="/img/linkedin-logo.svg"
+              src={linkedinIcon}
               alt="LinkedIn"
               style={{ width: 40, height: 40 }}
             />

@@ -25,7 +25,7 @@ const projects = [
         building and deploying a RESTful API.
       </>
     ),
-    img: "/img/api-book.png",
+    img: "/react-vite-portfolio-website/img/api-book.png",
     demoLink:
       "https://drive.google.com/file/d/1QrniZzqELvfCkgoxOwPxvuyX0Akt_LfD/view?usp=sharing",
     buttons: [
@@ -52,7 +52,7 @@ const projects = [
         Mongoose, REST API, Swagger, Postman.
       </>
     ),
-    img: "/img/thought-tracker.jpg",
+    img: "/react-vite-portfolio-website/img/thought-tracker.jpg",
     demoLink: "https://thought-tracker-journal-4688a4169626.herokuapp.com/",
     githubLink: "https://github.com/Sogolsa/thought-processor-api",
     buttons: [
@@ -80,7 +80,7 @@ const projects = [
         <strong>Technologies used</strong>: React, React Router, Material UI
       </>
     ),
-    img: "/img/fitness-web-app.jpg",
+    img: "/react-vite-portfolio-website/img/fitness-web-app.jpg",
     demoLink: "https://exercise-data-app-fd8fef0ae055.herokuapp.com/",
     githubLink: "https://github.com/Sogolsa/fitness-app-react",
     buttons: [
@@ -107,7 +107,7 @@ const projects = [
         buckets
       </>
     ),
-    img: "/img/recipe-app.jpg",
+    img: "/react-vite-portfolio-website/img/recipe-app.jpg",
     demoLink: "https://radiant-brook-87990-20d91401d7c4.herokuapp.com/",
     githubLink: "https://github.com/Sogolsa/recipe-app",
     buttons: [
@@ -130,7 +130,7 @@ const projects = [
         TypeScript, TypeDoc
       </>
     ),
-    img: "/img/myFlix-angular1.jpg",
+    img: "/react-vite-portfolio-website/img/myFlix-angular1.jpg",
     demoLink: "https://sogolsa.github.io/myFlix-Angular-client/welcome",
     githubLink: "https://github.com/Sogolsa/myFlix-Angular-client",
     buttons: [
@@ -154,7 +154,7 @@ const projects = [
         Bootstrap.
       </>
     ),
-    img: "/img/myFlix-react2.jpg",
+    img: "/react-vite-portfolio-website/img/myFlix-react2.jpg",
     demoLink: "https://movieapp-bysogol.netlify.app/login",
     githubLink: "https://github.com/Sogolsa/myFlix-client",
     buttons: [
@@ -180,7 +180,7 @@ const projects = [
         REST API, Postman, JSDoc.
       </>
     ),
-    img: "/img/movie-api.png",
+    img: "/react-vite-portfolio-website/img/movie-api.png",
     // demoLink: "https://movieapp-bysogol.netlify.app/login",
     githubLink: "https://github.com/Sogolsa/movie_api",
     buttons: [
@@ -204,7 +204,7 @@ const projects = [
         Database, Google Firebase Authentication, Gifted Chat Library, Android
       </>
     ),
-    img: "/img/chat-app2.JPG",
+    img: "/react-vite-portfolio-website/img/chat-app2.JPG",
     demoLink:
       "https://sogolsa.github.io/portfolio-website/img/chat-app-demo.png",
     githubLink: "https://github.com/Sogolsa/chat-app",
@@ -230,7 +230,7 @@ const projects = [
         monitoring), Jest.
       </>
     ),
-    img: "/img/meet-app-512.png",
+    img: "/react-vite-portfolio-website/img/meet-app-512.png",
     demoLink: "https://sogolsa.github.io/meet/",
     githubLink: "https://github.com/Sogolsa/meet",
     buttons: [
@@ -254,7 +254,7 @@ const projects = [
         jQuery, External API
       </>
     ),
-    img: "/img/pokemon1.png",
+    img: "/react-vite-portfolio-website/img/pokemon1.png",
     demoLink: "https://sogolsa.github.io/js-app1-pokedex/",
     // githubLink: "https://github.com/Sogolsa/meet",
     casestudyLink: "https://sogolsa.github.io/Pokedex-caseStudy/",
@@ -279,7 +279,7 @@ const projects = [
         <strong>Technologies used</strong>: Scratch
       </>
     ),
-    img: "/img/calorie-calculator1.png",
+    img: "/react-vite-portfolio-website/img/calorie-calculator1.png",
     demoLink: "https://scratch.mit.edu/projects/868020716/",
     scratchLink: "https://scratch.mit.edu/projects/868020716/editor/",
     buttons: [
