@@ -294,21 +294,31 @@ const projects = [
 
 const Work = () => {
   return (
-    <Box sx={{ padding: 4, backgroundColor: "#f9f9f9" }}>
-      <Typography variant="h4" align="center" gutterBottom>
+    <Box sx={{ padding: 4, backgroundColor: "#062636" }}>
+      <Typography
+        variant="h4"
+        align="center"
+        gutterBottom
+        sx={{ color: "white" }}
+      >
         Web Development
       </Typography>
       <Grid container spacing={4}>
         {projects.map((project, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
-              sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+              sx={{
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                backgroundColor: "#f2fcfc",
+              }}
             >
               <CardMedia
                 component="img"
                 image={project.img}
                 alt={project.title}
-                sx={{ height: 200 }}
+                sx={{ height: 300 }}
               />
               <CardContent>
                 <Typography variant="h5" gutterBottom>

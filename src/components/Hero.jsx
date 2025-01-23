@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import { Link } from "@mui/material";
 import heroImg from "../assets/hero-img2.jpg";
 
 const Hero = () => {
@@ -35,7 +36,7 @@ const Hero = () => {
           Hi, I'm Sogol
         </Typography>
         <Typography
-          variant="h4"
+          variant="h3"
           sx={{
             marginTop: 2,
             fontSize: { xs: "1rem", sm: "1.25rem", md: "1.5rem" },
@@ -43,6 +44,50 @@ const Hero = () => {
         >
           Welcome to My Portfolio!
         </Typography>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 2,
+            marginTop: 4,
+          }}
+        >
+          <Link
+            href="https://github.com/Sogolsa"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/github-square-icon.svg"
+              alt="GitHub"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+
+          <Link
+            href="https://twitter.com/sogollls"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/twitter-icon.svg"
+              alt="Twitter"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+
+          <Link
+            href="https://www.linkedin.com/in/sogol-saadat/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/linkedin-logo.svg"
+              alt="LinkedIn"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+        </Box>
       </Box>
     </Box>
   );

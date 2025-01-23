@@ -5,23 +5,23 @@ const Contact = () => {
   return (
     <Box
       sx={{
-        padding: 4,
+        padding: 10,
         backgroundColor: "#f9f9f9",
         textAlign: "center",
       }}
     >
       {/* Contact Info */}
       <Typography variant="h5" gutterBottom>
-        Connect me via Email or on LinkedIn!
+        Connect with me via Email or on LinkedIn!
       </Typography>
       <Typography>
-        Email:{" "}
+        Email:
         <Link href="mailto:sogol.s.saadatt@gmail.com" color="inherit">
           sogol.s.saadatt@gmail.com
         </Link>
       </Typography>
       <Typography>
-        LinkedIn:{" "}
+        LinkedIn:
         <Link
           href="https://www.linkedin.com/in/sogol-saadat/"
           target="_blank"
@@ -36,20 +36,24 @@ const Contact = () => {
       <Button
         variant="contained"
         href="mailto:sogol.s.saadatt@gmail.com"
-        sx={{ marginTop: 2, backgroundColor: "#2ca4ab" }}
+        sx={{
+          marginTop: 2,
+          backgroundColor: "#2ca4ab",
+          "&:hover": { backgroundColor: "Highlight" },
+        }}
       >
         Contact Me
       </Button>
 
       {/* Social Media Links */}
-      <Box sx={{ marginTop: 4 }}>
-        <Typography variant="h6">Find me on</Typography>
+      <Box sx={{ marginTop: 6 }}>
+        <Typography variant="h8">Find me on</Typography>
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
             gap: 2,
-            marginTop: 2,
+            marginTop: 1,
           }}
         >
           {/* GitHub */}
@@ -94,7 +98,7 @@ const Contact = () => {
       </Box>
 
       {/* Back to Top */}
-      <Box sx={{ marginTop: 4 }}>
+      <Box sx={{ marginTop: 1 }}>
         <Link href="#top" color="inherit">
           Back to top
         </Link>
