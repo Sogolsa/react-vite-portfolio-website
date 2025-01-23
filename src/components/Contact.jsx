@@ -1,0 +1,106 @@
+import React from "react";
+import { Box, Typography, Link, Button } from "@mui/material";
+
+const Contact = () => {
+  return (
+    <Box
+      sx={{
+        padding: 4,
+        backgroundColor: "#f9f9f9",
+        textAlign: "center",
+      }}
+    >
+      {/* Contact Info */}
+      <Typography variant="h5" gutterBottom>
+        Connect me via Email or on LinkedIn!
+      </Typography>
+      <Typography>
+        Email:{" "}
+        <Link href="mailto:sogol.s.saadatt@gmail.com" color="inherit">
+          sogol.s.saadatt@gmail.com
+        </Link>
+      </Typography>
+      <Typography>
+        LinkedIn:{" "}
+        <Link
+          href="https://www.linkedin.com/in/sogol-saadat/"
+          target="_blank"
+          rel="noopener"
+          color="inherit"
+        >
+          Sogol Saadat
+        </Link>
+      </Typography>
+      <Typography>Location: Chicago, IL</Typography>
+
+      <Button
+        variant="contained"
+        href="mailto:sogol.s.saadatt@gmail.com"
+        sx={{ marginTop: 2, backgroundColor: "#2ca4ab" }}
+      >
+        Contact Me
+      </Button>
+
+      {/* Social Media Links */}
+      <Box sx={{ marginTop: 4 }}>
+        <Typography variant="h6">Find me on</Typography>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 2,
+            marginTop: 2,
+          }}
+        >
+          {/* GitHub */}
+          <Link
+            href="https://github.com/Sogolsa"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/github-square-icon.svg"
+              alt="GitHub"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+
+          {/* Twitter */}
+          <Link
+            href="https://twitter.com/sogollls"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/twitter-icon.svg"
+              alt="Twitter"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+
+          {/* LinkedIn */}
+          <Link
+            href="https://www.linkedin.com/in/sogol-saadat/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/img/linkedin-logo.svg"
+              alt="LinkedIn"
+              style={{ width: 40, height: 40 }}
+            />
+          </Link>
+        </Box>
+      </Box>
+
+      {/* Back to Top */}
+      <Box sx={{ marginTop: 4 }}>
+        <Link href="#top" color="inherit">
+          Back to top
+        </Link>
+      </Box>
+    </Box>
+  );
+};
+
+export default Contact;

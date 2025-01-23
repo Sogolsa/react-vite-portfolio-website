@@ -12,11 +12,15 @@ import {
   ListItemText,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/sogol-saadat-logo2.png";
 
 const NavBar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
+
+  // const navigate = useNavigate();
+
   const toggleDrawer = (open) => {
     return (event) => {
       if (
@@ -30,10 +34,10 @@ const NavBar = () => {
   };
 
   const menuItems = [
-    { text: "Home", link: "top" },
-    { text: "About", link: "about" },
-    { text: "Work", link: "/work" },
-    { text: "Contact", link: "/contact" },
+    { text: "Home", link: "top", typ: "scroll" },
+    { text: "About", link: "about", type: "scroll" },
+    { text: "Work", link: "work", type: "scroll" },
+    { text: "Contact", link: "contact", type: "scroll" },
   ];
 
   return (
@@ -70,7 +74,7 @@ const NavBar = () => {
           <Button color="inherit" href="#about">
             About
           </Button>
-          <Button color="inherit" component={ScrollLink} to="/work">
+          <Button color="inherit" href="#work">
             Work
           </Button>
           <Button color="inherit" href="#contact">
@@ -103,7 +107,7 @@ const NavBar = () => {
                     <ScrollLink
                       to={item.link}
                       smooth={true}
-                      duration={500}
+                      duration={200}
                       onClick={() => setDrawerOpen(false)}
                       style={{
                         width: "100%",
@@ -113,6 +117,34 @@ const NavBar = () => {
                     >
                       <ListItemText primary={item.text} />
                     </ScrollLink>
+                    {/* {item.type === "scroll" ? (
+                      <ScrollLink
+                        to={item.link}
+                        smooth={true}
+                        duration={200}
+                        offset={-64}
+                        onClick={() => setDrawerOpen(false)}
+                        style={{
+                          width: "100%",
+                          textDecoration: "none",
+                          color: "inherit",
+                        }}
+                      >
+                        <ListItemText primary={item.text} />
+                      </ScrollLink>
+                    ) : (
+                      <Link
+                        to={item.link}
+                        style={{
+                          width: "100%",
+                          textDecoration: "none",
+                          color: "inherit",
+                        }}
+                        onClick={() => setDrawerOpen(false)}
+                      >
+                        <ListItemText primary={item.text} />
+                      </Link>
+                    )} */}
                   </ListItemButton>
                 </ListItem>
               ))}

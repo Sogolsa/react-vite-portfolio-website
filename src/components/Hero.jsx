@@ -12,7 +12,7 @@ const Hero = () => {
         backgroundPosition: "center",
         color: "white",
         display: "flex",
-        justifyContent: "center",
+        justifyContent: { xs: "center", lg: "flex-start" },
         alignItems: "center",
         textAlign: "center",
         padding: { xs: 2, sm: 4 },
@@ -20,10 +20,11 @@ const Hero = () => {
     >
       <Box
         sx={{
-          backgroundColor: "rgba(0,0,0, 0.3)",
-          padding: { xs: 2, sm: 4, md: 6 },
+          backgroundColor: { xs: "rgba(0,0,0, 0.3)", lg: "rgba(0,0,0,0)" },
+          padding: { xs: 2, sm: 3, lg: 0 },
           borderRadius: 2,
           maxWidth: { xs: "90%", sm: "80%", md: "60%" },
+          color: { xs: "white", lg: "#000" },
         }}
       >
         <Typography
