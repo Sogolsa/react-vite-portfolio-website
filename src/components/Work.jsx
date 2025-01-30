@@ -11,6 +11,32 @@ import {
 
 const projects = [
   {
+    title: "Thought Tracker Journal React",
+    description: (
+      <>
+        The client side of Thought Tracker Journal API using React-vite and
+        Material UI. In this application users can sign up, log in, and enter
+        their journal in an organized way, all their data is encrypted based on
+        the API.
+        <br />
+        <br />
+        <strong>Technologies used:</strong> React, Material UI
+      </>
+    ),
+    img: "/react-vite-portfolio-website/img/thought-tracker-client.jpeg",
+    demoLink: "https://organize-my-mind-b21c044d1535.herokuapp.com/",
+    buttons: [
+      {
+        label: "Demo",
+        link: "demoLink",
+      },
+      {
+        label: "Github",
+        link: "githubLink",
+      },
+    ],
+  },
+  {
     title: "Beginner's Guide to Developing a RESTful API",
     description: (
       <>
