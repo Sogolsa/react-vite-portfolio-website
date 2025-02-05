@@ -11,6 +11,37 @@ import {
 
 const projects = [
   {
+    title: "Daily Calories and Macros Estimator",
+    description: (
+      <>
+        A React-vite app that let's the users to enter information needed to
+        estimate their daily calories and macros. In this app users can select
+        their activity level, goal, activity type, gender from a drop down menu.
+        This calculator is developed based on Precision Nutrition formula for
+        calculating calories and macros. In this app users can toggle between
+        the dark and light mode based on their preferences. This app is a
+        progressive web app (Web App).
+        <br />
+        <br />
+        <strong>Technologies used:</strong> React, Vite, Material UI, Form
+        validation
+      </>
+    ),
+    img: "/react-vite-portfolio-website/img/screenshot-wide.png",
+    demoLink: "https://caloire-macro-estimator.vercel.app/",
+    githubLink: "https://github.com/Sogolsa/estimate-daily-fuel",
+    buttons: [
+      {
+        label: "Demo",
+        link: "demoLink",
+      },
+      {
+        label: "Github",
+        link: "githubLink",
+      },
+    ],
+  },
+  {
     title: "Thought Tracker Journal React",
     description: (
       <>
@@ -20,11 +51,12 @@ const projects = [
         the API.
         <br />
         <br />
-        <strong>Technologies used:</strong> React, Material UI
+        <strong>Technologies used:</strong> React, CRA, Material UI
       </>
     ),
     img: "/react-vite-portfolio-website/img/thought-tracker-client.jpeg",
     demoLink: "https://organize-my-mind-b21c044d1535.herokuapp.com/",
+    githubLink: "https://github.com/Sogolsa/ThoughtTracker-react",
     buttons: [
       {
         label: "Demo",
