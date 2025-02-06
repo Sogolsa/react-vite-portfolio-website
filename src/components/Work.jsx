@@ -111,13 +111,8 @@ const projects = [
       </>
     ),
     img: "/react-vite-portfolio-website/img/thought-tracker.jpg",
-    demoLink: "https://thought-tracker-journal-4688a4169626.herokuapp.com/",
     githubLink: "https://github.com/Sogolsa/thought-processor-api",
     buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
       {
         label: "Github",
         link: "githubLink",
