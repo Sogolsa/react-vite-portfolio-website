@@ -55,7 +55,7 @@ const projects = [
       </>
     ),
     img: "/react-vite-portfolio-website/img/thought-tracker-client.jpeg",
-    demoLink: "https://organize-my-mind-b21c044d1535.herokuapp.com/",
+    demoLink: "https://mind-organizer-easy-journaling.vercel.app/",
     githubLink: "https://github.com/Sogolsa/ThoughtTracker-react",
     buttons: [
       {
