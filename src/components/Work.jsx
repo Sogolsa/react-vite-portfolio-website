@@ -139,7 +139,7 @@ const projects = [
       </>
     ),
     img: "/react-vite-portfolio-website/img/fitness-web-app.jpg",
-    demoLink: "https://exercise-data-app-fd8fef0ae055.herokuapp.com/",
+    demoLink: "https://fitness-app-react-eight.vercel.app/",
     githubLink: "https://github.com/Sogolsa/fitness-app-react",
     buttons: [
       {
