@@ -11,6 +11,34 @@ import {
 
 const projects = [
   {
+    title: "Graduate Assistant Booking App",
+    description: (
+      <>
+        A web application designed to help Graduate Assistants easily set their
+        weekly availability for office hours. Students can then view available
+        time slots and book appointments online, streamlining the scheduling
+        process and reducing manual coordination.
+        <br />
+        <br />
+        <strong>Technologies used:</strong> Nextjs, TypeScript, Supabase,
+        TailwindCss
+      </>
+    ),
+    img: "/react-vite-portfolio-website/img/ga-booking.png",
+    demoLink: "https://ga-booking.vercel.app/",
+    githubLink: "https://github.com/Sogolsa/ga-booking",
+    buttons: [
+      {
+        label: "Demo",
+        link: "demoLink",
+      },
+      {
+        label: "Github",
+        link: "githubLink",
+      },
+    ],
+  },
+  {
     title: "Daily Calories and Macros Estimator",
     description: (
       <>
