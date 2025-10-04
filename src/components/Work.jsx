@@ -33,7 +33,33 @@ const projects = [
         link: "demoLink",
       },
       {
-        label: "Github",
+        label: "Github Private",
+        link: "githubLink",
+      },
+    ],
+  },
+  {
+    title: "Personal Brand Landing Page",
+    description: (
+      <>
+        Designed and developed a minimalist personal brand landing page for an
+        author, featuring an interactive hub layout that connects key platforms
+        (Substack, YouTube, Amazon, Instagram, and direct contact).
+        <br />
+        <br />
+        <strong>Technologies used:</strong> HtML, CSS, JavaScript
+      </>
+    ),
+    img: "/react-vite-portfolio-website/img/landing-page1.png",
+    demoLink: "https://leahdubs.vercel.app/",
+    githubLink: "https://github.com/Sogolsa/LD-landing-page",
+    buttons: [
+      {
+        label: "Demo",
+        link: "demoLink",
+      },
+      {
+        label: "Github Private",
         link: "githubLink",
       },
     ],
@@ -69,6 +95,7 @@ const projects = [
       },
     ],
   },
+
   {
     title: "Thought Tracker Journal React",
     description: (
@@ -393,13 +420,18 @@ const Work = () => {
                 display: "flex",
                 flexDirection: "column",
                 backgroundColor: "#f2fcfc",
+                borderRadius: 2,
               }}
             >
               <CardMedia
                 component="img"
                 image={project.img}
                 alt={project.title}
-                sx={{ height: 300 }}
+                sx={{
+                  width: "100%",
+                  height: 250,
+                  objectFit: "cover",
+                }}
               />
               <CardContent>
                 <Typography variant="h5" gutterBottom>
