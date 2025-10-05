@@ -7,7 +7,7 @@ const projects = [
         process and reducing manual coordination.`,
 
     technologies: "Nextjs, TypeScript, Supabase, TailwindCss",
-    img: "/react-vite-portfolio-website/img/ga-booking.png",
+    img: "img/ga-booking.png",
     demoLink: "https://ga-booking.vercel.app/",
     githubLink: "https://github.com/Sogolsa/ga-booking",
     buttons: [
@@ -28,7 +28,7 @@ const projects = [
         (Substack, YouTube, Amazon, Instagram, and direct contact).`,
 
     technologies: "HtML, CSS, JavaScript",
-    img: "/react-vite-portfolio-website/img/landing-page1.png",
+    img: "img/landing-page1.png",
     demoLink: "https://leahdubs.vercel.app/",
     githubLink: "https://github.com/Sogolsa/LD-landing-page",
     buttons: [
@@ -53,7 +53,7 @@ const projects = [
         progressive web app (Web App).`,
 
     technologies: "React, Vite, Material UI, Form validation",
-    img: "/react-vite-portfolio-website/img/screenshot-wide.png",
+    img: "img/screenshot-wide.png",
     demoLink: "https://caloire-macro-estimator.vercel.app/",
     githubLink: "https://github.com/Sogolsa/estimate-daily-fuel",
     buttons: [
@@ -76,7 +76,7 @@ const projects = [
         the API.`,
 
     technologies: "React, CRA, Material UI",
-    img: "/react-vite-portfolio-website/img/thought-tracker-client.jpeg",
+    img: "img/thought-tracker-client.jpeg",
     demoLink: "https://mind-organizer-easy-journaling.vercel.app/",
     githubLink: "https://github.com/Sogolsa/ThoughtTracker-react",
     buttons: [
@@ -101,7 +101,7 @@ const projects = [
         different types of responses between the client and server.This guide
         does not include user authentication. It focuses on the core concepts of
         building and deploying a RESTful API.`,
-    img: "/react-vite-portfolio-website/img/api-book.png",
+    img: "img/api-book.png",
     demoLink:
       "https://drive.google.com/file/d/1QrniZzqELvfCkgoxOwPxvuyX0Akt_LfD/view?usp=sharing",
     buttons: [
@@ -123,7 +123,7 @@ const projects = [
 
     technologies:
       "Node.js, Express.js, MongoDB,Mongoose, REST API, Swagger, Postman.",
-    img: "/react-vite-portfolio-website/img/thought-tracker.jpg",
+    img: "img/thought-tracker.jpg",
     githubLink: "https://github.com/Sogolsa/thought-processor-api",
     buttons: [
       {
@@ -141,7 +141,7 @@ const projects = [
         about that exercise.`,
 
     technologies: "React, React Router, Material UI",
-    img: "/react-vite-portfolio-website/img/fitness-web-app.jpg",
+    img: "img/fitness-web-app.jpg",
     demoLink: "https://fitness-app-react-eight.vercel.app/",
     githubLink: "https://github.com/Sogolsa/fitness-app-react",
     buttons: [
@@ -162,7 +162,7 @@ const projects = [
         dashboards, implementing data analytics and data visualizations.`,
 
     technologies: "Python, Django, PostgreSQL, AWS S3 buckets.",
-    img: "/react-vite-portfolio-website/img/recipe-app.jpg",
+    img: "img/recipe-app.jpg",
     demoLink: "https://radiant-brook-87990-20d91401d7c4.herokuapp.com/",
     githubLink: "https://github.com/Sogolsa/recipe-app",
     buttons: [
@@ -179,7 +179,7 @@ const projects = [
         server-side code (REST API and database), using Angular framework.`,
 
     technologies: "Angular, Angular Material, TypeScript, TypeDoc",
-    img: "/react-vite-portfolio-website/img/myFlix-angular1.jpg",
+    img: "img/myFlix-angular1.jpg",
     demoLink: "https://sogolsa.github.io/myFlix-Angular-client/welcome",
     githubLink: "https://github.com/Sogolsa/myFlix-Angular-client",
     buttons: [
@@ -197,7 +197,7 @@ const projects = [
         application is hosted on Netlify.`,
 
     technologies: "React, React Router, React, Bootstrap.",
-    img: "/react-vite-portfolio-website/img/myFlix-react2.jpg",
+    img: "img/myFlix-react2.jpg",
     demoLink: "https://movieapp-bysogol.netlify.app/login",
     githubLink: "https://github.com/Sogolsa/myFlix-client",
     buttons: [
@@ -218,7 +218,7 @@ const projects = [
 
     technologies:
       "Node.js, Express, MongoDB, Mongoose, REST API, Postman, JSDoc.",
-    img: "/react-vite-portfolio-website/img/movie-api.png",
+    img: "img/movie-api.png",
     // demoLink: "https://movieapp-bysogol.netlify.app/login",
     githubLink: "https://github.com/Sogolsa/movie_api",
     buttons: [
@@ -237,7 +237,7 @@ const projects = [
 
     technologies:
       "React Native, Expo, Google Firestore Database, Google Firebase Authentication, Gifted Chat Library, Android",
-    img: "/react-vite-portfolio-website/img/chat-app2.JPG",
+    img: "img/chat-app2.JPG",
     demoLink:
       "https://sogolsa.github.io/portfolio-website/img/chat-app-demo.png",
     githubLink: "https://github.com/Sogolsa/chat-app",
@@ -257,7 +257,7 @@ const projects = [
 
     technologies:
       "React, TDD, Google Calendar API, serverless functions(AWS Lambda), Recharts, Atatus(performance monitoring), Jest.",
-    img: "/react-vite-portfolio-website/img/meet-app-512.png",
+    img: "img/meet-app-512.png",
     demoLink: "https://sogolsa.github.io/meet/",
     githubLink: "https://github.com/Sogolsa/meet",
     buttons: [
@@ -275,7 +275,7 @@ const projects = [
         Pokemon's details.`,
 
     technologies: "HTML, CSS, JavaScript, Bootstrap,jQuery, External API",
-    img: "/react-vite-portfolio-website/img/pokemon1.png",
+    img: "img/pokemon1.png",
     demoLink: "https://sogolsa.github.io/js-app1-pokedex/",
     // githubLink: "https://github.com/Sogolsa/meet",
     casestudyLink: "https://sogolsa.github.io/Pokedex-caseStudy/",
@@ -295,7 +295,7 @@ const projects = [
         macros you need daily based on your goals.`,
 
     technologies: "Scratch",
-    img: "/react-vite-portfolio-website/img/calorie-calculator1.png",
+    img: "img/calorie-calculator1.png",
     demoLink: "https://scratch.mit.edu/projects/868020716/",
     scratchLink: "https://scratch.mit.edu/projects/868020716/editor/",
     buttons: [
