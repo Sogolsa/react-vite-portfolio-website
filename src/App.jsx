@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-vite-portfolio-website">
       <Box id="top">
         <NavBar />
         <Hero />

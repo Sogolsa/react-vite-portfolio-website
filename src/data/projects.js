@@ -1,3 +1,4 @@
+const BASE_PATH = "/react-vite-portfolio-website/";
 const projects = [
   {
     title: "Graduate Assistant Booking App",
