@@ -69,7 +69,6 @@ const About = () => {
             {/* Data Analysis Portfolio Button */}
             <Button
               variant="contained"
-              // href="https://sogolsa.github.io/Sogol.Portfolio.github.io/"
               href="https://sogolsa.github.io/data-analysis-portfolio/"
               target="_blank"
               sx={{
