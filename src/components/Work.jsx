@@ -71,6 +71,7 @@ const Work = () => {
                       sx={{
                         marginTop: 3,
                         backgroundColor: "#2ca4ab",
+                        fontWeight: 700,
                         "&:hover": { backgroundColor: "#218a91" },
                       }}
                     >
@@ -107,7 +108,8 @@ const Work = () => {
                 href="https://sogolsa.github.io/data-analysis-portfolio/"
                 target="_blank"
                 sx={{
-                  backgroundColor: "#3891B0",
+                  fontWeight: 600,
+                  backgroundColor: "#fc7a7c",
                   "&:hover": { backgroundColor: "#4E979B" },
                 }}
               >
