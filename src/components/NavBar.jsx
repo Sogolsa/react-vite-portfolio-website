@@ -117,34 +117,6 @@ const NavBar = () => {
                     >
                       <ListItemText primary={item.text} />
                     </ScrollLink>
-                    {/* {item.type === "scroll" ? (
-                      <ScrollLink
-                        to={item.link}
-                        smooth={true}
-                        duration={200}
-                        offset={-64}
-                        onClick={() => setDrawerOpen(false)}
-                        style={{
-                          width: "100%",
-                          textDecoration: "none",
-                          color: "inherit",
-                        }}
-                      >
-                        <ListItemText primary={item.text} />
-                      </ScrollLink>
-                    ) : (
-                      <Link
-                        to={item.link}
-                        style={{
-                          width: "100%",
-                          textDecoration: "none",
-                          color: "inherit",
-                        }}
-                        onClick={() => setDrawerOpen(false)}
-                      >
-                        <ListItemText primary={item.text} />
-                      </Link>
-                    )} */}
                   </ListItemButton>
                 </ListItem>
               ))}

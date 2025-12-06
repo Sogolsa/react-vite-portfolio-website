@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Grid, Typography, Avatar, Button } from "@mui/material";
-// import { Link } from "react-router-dom";
 import profilePic from "../assets/sogol-profile-photo.jpg";
 
 const About = () => {
@@ -26,20 +25,18 @@ const About = () => {
             About Me
           </Typography>
           <Typography variant="body1" sx={{ lineHeight: 1.8 }}>
-            I'm a web developer and data analyst with an educational background
-            in mathematics and business. Working as a personal trainer for 8
-            years has taught me to be dedicated and consistent in reaching my
-            goals, no matter how difficult the situation is. Working with
-            clients has improved my communication and collaboration skills and
-            helped me with better understanding individual needs. Having a
-            growth mindset, after completing data analysis courses, I shifted my
-            focus to web development, using my analytical and problem-solving
-            skills. I'm looking for a web developer role so I can apply my range
-            of experience in a dynamic environment. I'm currently available for
-            full-time, part-time, contract positions and I'm also open to remote
-            positions. In addition to my passion for growing in web development,
-            I love nature and outdoors, going to lyric opera, lifting heavy
-            weights, and having deep conversations.
+            I’m a web developer and data analyst with a background in
+            mathematics, business, and fitness coaching. I’m currently earning
+            my second master’s degree in Computer Science and working as a
+            graduate assistant in the Math Department, tutoring and supporting
+            undergraduate students. My earlier experience working closely with
+            clients helped me develop strong communication and collaboration
+            skills, which I now apply in tech. After completing data analytics
+            courses, I shifted into web development and enjoy building
+            practical, user-centered solutions. I’m currently seeking web
+            developer opportunities—full-time, part-time, contract, or remote.
+            Outside of work, I love nature, the lyric opera, lifting heavy
+            weights, and deep conversations.
           </Typography>
         </Grid>
         <Grid item xs={12}>
@@ -52,32 +49,6 @@ const About = () => {
               gap: 2,
             }}
           >
-            {/* Web Development Projects Button */}
-            {/* <Button
-              variant="contained"
-              component={Link}
-              to="/work"
-              sx={{
-                margin: 1,
-                backgroundColor: "#2ca4ab",
-                "&:hover": { backgroundColor: "#4E979B" },
-              }}
-            >
-              My Web Development Projects
-            </Button> */}
-
-            {/* Data Analysis Portfolio Button */}
-            <Button
-              variant="contained"
-              href="https://sogolsa.github.io/data-analysis-portfolio/"
-              target="_blank"
-              sx={{
-                backgroundColor: "#3891B0",
-                "&:hover": { backgroundColor: "#4E979B" },
-              }}
-            >
-              My Data Analysis Portfolio
-            </Button>
             <Button
               variant="contained"
               href="https://drive.google.com/file/d/1_VumjTzGDgqQDoPIhhGJsvHKX7u-quX3/view?usp=sharing"

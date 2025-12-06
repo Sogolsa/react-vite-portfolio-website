@@ -82,6 +82,40 @@ const Work = () => {
             </Card>
           </Grid>
         ))}
+        <Grid item xs={12}>
+          <Box sx={{ padding: 4, backgroundColor: "#062636" }}>
+            <Typography
+              variant="h4"
+              align="center"
+              gutterBottom
+              sx={{ color: "white" }}
+            >
+              Other Work
+            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+                marginTop: 4,
+                gap: 2,
+              }}
+            >
+              {/* Data Analysis Portfolio Button */}
+              <Button
+                variant="contained"
+                href="https://sogolsa.github.io/data-analysis-portfolio/"
+                target="_blank"
+                sx={{
+                  backgroundColor: "#3891B0",
+                  "&:hover": { backgroundColor: "#4E979B" },
+                }}
+              >
+                My Data Analysis Portfolio
+              </Button>
+            </Box>
+          </Box>
+        </Grid>
       </Grid>
     </Box>
   );
