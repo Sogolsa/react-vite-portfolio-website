@@ -81,7 +81,7 @@ const About = () => {
             </Button>
             <Button
               variant="contained"
-              href="https://drive.google.com/file/d/1wsP1J_0mosQGI3-rJv82oqMOWTmKoFYU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_VumjTzGDgqQDoPIhhGJsvHKX7u-quX3/view?usp=sharing"
               download="sogol-saadat-resume.pdf"
               target="_blank"
               sx={{
