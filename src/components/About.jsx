@@ -51,7 +51,7 @@ const About = () => {
           >
             <Button
               variant="contained"
-              href="https://drive.google.com/file/d/1jRf6UNM2Y5iI7-8uGsYzOIjmV0YTpLAx/view?usp=sharing"
+              href="https://drive.google.com/file/d/1KV_wEXvWvtkS_kKkt29C9l2tqlFGulRN/view?usp=sharing"
               download="sogol-saadat-resume.pdf"
               target="_blank"
               sx={{
