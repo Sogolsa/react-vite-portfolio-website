@@ -269,44 +269,6 @@ const projects = [
       { label: "Github", link: "githubLink" },
     ],
   },
-  {
-    title: "Pokedex app",
-    description: `In this project I have created a Pokemon app that fetches data from an
-        external API. Each Pokemon button triggers a pop-up with the respective
-        Pokemon's details.`,
-
-    technologies: "HTML, CSS, JavaScript, Bootstrap,jQuery, External API",
-    img: "img/pokemon1.png",
-    demoLink: "https://sogolsa.github.io/js-app1-pokedex/",
-    // githubLink: "https://github.com/Sogolsa/meet",
-    casestudyLink: "https://sogolsa.github.io/Pokedex-caseStudy/",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "case study", link: "casestudyLink" },
-    ],
-  },
-
-  {
-    title: "Calorie Calculator",
-    description: `In this project I have created a basic calorie calculator using scratch.
-        You can simply answer the questions asked and you will get calories and
-        macros you need daily based on your goals.`,
-
-    technologies: "Scratch",
-    img: "img/calorie-calculator1.png",
-    demoLink: "https://scratch.mit.edu/projects/868020716/",
-    scratchLink: "https://scratch.mit.edu/projects/868020716/editor/",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "Scratch Editor", link: "scratchLink" },
-    ],
-  },
 ];
 
 export default projects;
