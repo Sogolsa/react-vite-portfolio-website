@@ -174,41 +174,41 @@ const projects = [
       { label: "Github", link: "githubLink" },
     ],
   },
-  {
-    title: "Angular myFlix App",
-    description: `The client-side for an application called myFlix based on its existing
-        server-side code (REST API and database), using Angular framework.`,
+  // {
+  //   title: "Angular myFlix App",
+  //   description: `The client-side for an application called myFlix based on its existing
+  //       server-side code (REST API and database), using Angular framework.`,
 
-    technologies: "Angular, Angular Material, TypeScript, TypeDoc",
-    img: "img/myFlix-angular1.jpg",
-    demoLink: "https://sogolsa.github.io/myFlix-Angular-client/welcome",
-    githubLink: "https://github.com/Sogolsa/myFlix-Angular-client",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "Github", link: "githubLink" },
-    ],
-  },
-  {
-    title: "React myFlix App",
-    description: `The client-side for an application called myFlix based on its existing
-        server-side code (REST API and database), using React Library. This
-        application is hosted on Netlify.`,
+  //   technologies: "Angular, Angular Material, TypeScript, TypeDoc",
+  //   img: "img/myFlix-angular1.jpg",
+  //   demoLink: "https://sogolsa.github.io/myFlix-Angular-client/welcome",
+  //   githubLink: "https://github.com/Sogolsa/myFlix-Angular-client",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "Github", link: "githubLink" },
+  //   ],
+  // },
+  // {
+  //   title: "React myFlix App",
+  //   description: `The client-side for an application called myFlix based on its existing
+  //       server-side code (REST API and database), using React Library. This
+  //       application is hosted on Netlify.`,
 
-    technologies: "React, React Router, React, Bootstrap.",
-    img: "img/myFlix-react2.jpg",
-    demoLink: "https://movieapp-bysogol.netlify.app/login",
-    githubLink: "https://github.com/Sogolsa/myFlix-client",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "Github", link: "githubLink" },
-    ],
-  },
+  //   technologies: "React, React Router, React, Bootstrap.",
+  //   img: "img/myFlix-react2.jpg",
+  //   demoLink: "https://movieapp-bysogol.netlify.app/login",
+  //   githubLink: "https://github.com/Sogolsa/myFlix-client",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "Github", link: "githubLink" },
+  //   ],
+  // },
   {
     title: "Movie API",
     description: `The server-side component of a “movies” web application. The web
@@ -230,45 +230,83 @@ const projects = [
       { label: "Github", link: "githubLink" },
     ],
   },
-  {
-    title: "Chat App",
-    description: `A chat app for mobile devices using React Native. The app will provide
-        users with a chat interface and options to share images and their
-        location. Studio.`,
+  // {
+  //   title: "Chat App",
+  //   description: `A chat app for mobile devices using React Native. The app will provide
+  //       users with a chat interface and options to share images and their
+  //       location. Studio.`,
 
-    technologies:
-      "React Native, Expo, Google Firestore Database, Google Firebase Authentication, Gifted Chat Library, Android",
-    img: "img/chat-app2.JPG",
-    demoLink:
-      "https://sogolsa.github.io/portfolio-website/img/chat-app-demo.png",
-    githubLink: "https://github.com/Sogolsa/chat-app",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "Github", link: "githubLink" },
-    ],
-  },
-  {
-    title: "Meet App",
-    description: `A serverless, progressive web application (PWA) with React using a
-        test-driven development (TDD) technique. The application uses the Google
-        Calendar API to fetch upcoming events.`,
+  //   technologies:
+  //     "React Native, Expo, Google Firestore Database, Google Firebase Authentication, Gifted Chat Library, Android",
+  //   img: "img/chat-app2.JPG",
+  //   demoLink:
+  //     "https://sogolsa.github.io/portfolio-website/img/chat-app-demo.png",
+  //   githubLink: "https://github.com/Sogolsa/chat-app",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "Github", link: "githubLink" },
+  //   ],
+  // },
+  // {
+  //   title: "Meet App",
+  //   description: `A serverless, progressive web application (PWA) with React using a
+  //       test-driven development (TDD) technique. The application uses the Google
+  //       Calendar API to fetch upcoming events.`,
 
-    technologies:
-      "React, TDD, Google Calendar API, serverless functions(AWS Lambda), Recharts, Atatus(performance monitoring), Jest.",
-    img: "img/meet-app-512.png",
-    demoLink: "https://sogolsa.github.io/meet/",
-    githubLink: "https://github.com/Sogolsa/meet",
-    buttons: [
-      {
-        label: "Demo",
-        link: "demoLink",
-      },
-      { label: "Github", link: "githubLink" },
-    ],
-  },
+  //   technologies:
+  //     "React, TDD, Google Calendar API, serverless functions(AWS Lambda), Recharts, Atatus(performance monitoring), Jest.",
+  //   img: "img/meet-app-512.png",
+  //   demoLink: "https://sogolsa.github.io/meet/",
+  //   githubLink: "https://github.com/Sogolsa/meet",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "Github", link: "githubLink" },
+  //   ],
+  // },
+  // {
+  //   title: "Pokedex app",
+  //   description: `In this project I have created a Pokemon app that fetches data from an
+  //       external API. Each Pokemon button triggers a pop-up with the respective
+  //       Pokemon's details.`,
+
+  //   technologies: "HTML, CSS, JavaScript, Bootstrap,jQuery, External API",
+  //   img: "img/pokemon1.png",
+  //   demoLink: "https://sogolsa.github.io/js-app1-pokedex/",
+  //   // githubLink: "https://github.com/Sogolsa/meet",
+  //   casestudyLink: "https://sogolsa.github.io/Pokedex-caseStudy/",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "case study", link: "casestudyLink" },
+  //   ],
+  // },
+
+  // {
+  //   title: "Calorie Calculator",
+  //   description: `In this project I have created a basic calorie calculator using scratch.
+  //       You can simply answer the questions asked and you will get calories and
+  //       macros you need daily based on your goals.`,
+
+  //   technologies: "Scratch",
+  //   img: "img/calorie-calculator1.png",
+  //   demoLink: "https://scratch.mit.edu/projects/868020716/",
+  //   scratchLink: "https://scratch.mit.edu/projects/868020716/editor/",
+  //   buttons: [
+  //     {
+  //       label: "Demo",
+  //       link: "demoLink",
+  //     },
+  //     { label: "Scratch Editor", link: "scratchLink" },
+  //   ],
+  // },
 ];
 
 export default projects;
